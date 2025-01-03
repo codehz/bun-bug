@@ -7,4 +7,4 @@ const { symbols } = cc({
 
 const x = symbols.getInstance();
 const data = read.ptr(x!, 0);
-toBuffer(data as Pointer, 0, 10);
+console.log(toBuffer(data as Pointer, 0, 10))
