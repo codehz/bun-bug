@@ -1,4 +1,3 @@
-import { cc } from "bun:ffi";
 import { fullGC, gcAndSweep, heapSize } from "bun:jsc";
 
 function alloc() {
